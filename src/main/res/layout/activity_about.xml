@@ -5,4 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".About"/>
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="399dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/fundada_em_17_de_julho_de_1963_pelos_s_cios_marcio_fossa_j_nior_e_vitor_felipe_ramos_mello_os_dois_primeiros_como_motoristas_e_maria_edite_na_administra_o_a_via_o_transvale_uma_empresa_de_transporte_coletivo_intermunicipal_que_cresceu_vertiginosamente_ao_longo_desses_60_anos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="386dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="196dp"
+        android:text="@string/a_via_o_transvale_investe_tamb_m_nos_seus_funcion_rios_com_pr_mios_e_pol_ticas_de_valoriza_o_de_seus_profissionais_deixando_ainda_espa_o_aberto_para_que_todos_os_colaboradores_opinem_tenham_ideias_e_as_apresentem_para_a_dire_o_isto_claro_resulta_em_satisfa_o_dos_seus_funcion_rios"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="385dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="312dp"
+        android:text="@string/al_m_da_preocupa_o_com_seus_clientes_e_funcion_rios_a_inova_o_e_consci_ncia_social_tamb_m_fazem_parte_da_nossa_hist_ria_a_via_o_transvale_foi_a_primeira_empresa_de_transporte_coletivo_intermunicipal_a_oferecer_aos_clientes_nibus_com_elevador_hidr_ulico_plataforma_espec_fica_para_deficientes_f_sicos_que_utilizam_cadeiras_de_roda_para_se_locomover_demonstrando_assim_uma_preocupa_o_com_o_aspecto_social"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
