@@ -2,4 +2,6 @@
 <resources>
     <string name="sobre">Sobre</string>
     <string name="Sobree">Sobre</string>
+    <string name="todo_r">TODO</string>
+    <string name="rotas_r">Rotas</string>
 </resources>

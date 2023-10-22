@@ -10,10 +10,20 @@ class MainMenu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_menu)
         val aboutBtn: Button = findViewById(R.id.aboutBtn)
+        val routesBtn: Button = findViewById(R.id.routesBtn)
 
         aboutBtn.setOnClickListener(){
             val intent = Intent(this, About::class.java)
             startActivity(intent)
         }
+
+        routesBtn.setOnClickListener(){
+            val intent = Intent(this, Routes::class.java)
+            startActivity(intent)
+        }
+    }
+    override fun onBackPressed() {
+        // Retorna void! bloqueia a ação do botão "voltar" seja ele virtual ou físico
+        return;
     }
 }
